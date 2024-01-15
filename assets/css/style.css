@@ -24,5 +24,68 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /*400,700*/
+    font-family: 'Roboto', sans-serif;
+    /*400,700*/
+    color: var(--dark-slate-grey);
+    min-height: 100vh;
+    background-color: var(--charcoal-grey);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .card {
+    background-color: var(--white);
+    width: 360px;
+}
+
+
+.wrapper .first .left {
+    padding: 1.5rem 1.5rem;
+}
+
+.wrapper .first .image img {
+    width: 360px;
+}
+
+h1,
+h2 {
+    font-size: 2.5rem;
+}
+
+.wrapper .first .paragraph {
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.wrapper .first .circle-check {
+    list-style-image: url(../images/icon-success.svg);
+    margin: 1.5rem 1.5rem;
+}
+
+.wrapper .first li {
+    padding-left: .50rem;
+    font-size: 15px;
+    list-style-type: none;
+    margin-bottom: .50rem;
+}
+
+.wrapper .first label {
+    font-weight: 700;
+    font-size: small;
+}
+
+.wrapper .first .hide-valid {
+    color: var(--tomato);
+    font-weight: 700;
+    font-size: small;
+    /* float: right; */
+    /* display: none; */
+}
+
+.wrapper .first form {
+    width: 100%;
 }
