@@ -7,6 +7,7 @@
     color: hsl(228, 45%, 44%);
 }
 
+
 :root {
     /* primary */
     --tomato: hsl(4, 100%, 67%);
@@ -15,6 +16,17 @@
     --charcoal-grey: hsl(235, 18%, 26%);
     --grey: hsl(231, 7%, 60%);
     --white: hsl(0, 0%, 100%);
+    /* color intergration */
+    /* hsl(348.42deg 100% 66.47%); */
+    /* hsl(11.29deg 96.88% 62.35%); */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 * {
@@ -42,6 +54,7 @@ body {
     width: 360px;
 }
 
+/* first card beginning */
 
 .wrapper .first .left {
     padding: 1.5rem 1.5rem;
@@ -82,10 +95,106 @@ h2 {
     color: var(--tomato);
     font-weight: 700;
     font-size: small;
-    /* float: right; */
-    /* display: none; */
+    float: right;
+    display: none;
 }
 
-.wrapper .first form {
+.wrapper .first input {
     width: 100%;
+    padding: 1rem;
+    margin: .50rem 0;
+    border-radius: 7px;
+    border: 1px solid var(--grey);
+    color: var(--grey);
 }
+
+.wrapper .first button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 7px;
+    margin: .75rem 0 .50rem 0;
+    border: none;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.wrapper .first button:hover {
+    background: linear-gradient(to right,hsl(348.42deg 100% 66.47%), hsl(11.29deg 96.88% 62.35%));
+    box-shadow: 1px 5px 11px hsl(348.42deg 100% 66.47%);
+}
+
+/* first card ending */
+
+/* -------------------------------------- */
+
+/* second card beginning */
+
+.wrapper .hidden {
+    display: none;
+}
+
+.wrapper .second {
+    padding: 0 1rem;
+}
+
+.wrapper .second .second-img {
+    width: 55px;
+}
+
+.wrapper .second p {
+    margin: 1.5rem 0;
+}
+
+.wrapper .second span {
+    font-weight: 700;
+}
+
+.wrapper .second button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 7px;
+    margin: .75rem 0 2rem 0;
+    border: none;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.wrapper .second button:hover {
+    background: linear-gradient(to right,hsl(348.42deg 100% 66.47%), hsl(11.29deg 96.88% 62.35%));
+    box-shadow: 1px 5px 11px hsl(348.42deg 100% 66.47%);
+}
+
+/* second card ending */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper .card {
+        /* flex-direction: row; */
+        display: flex;
+        width: 700px;
+    }
+    
+    .wrapper .first .image {
+        background-image: url(../images/illustration-sign-up-desktop.svg);
+
+    }
+
+    .wrapper .first .hide-img {
+        display: none;
+    }
+}
+
+/* https://github.com/josh76543210/Frontend-Mentor---Newsletter-sign-up-form-with-success-message-solution/blob/main/assets/css/style.css */
+/* https://github.com/Esesosa-max/frontend-mentors/blob/main/newsletter-sign-up-with-success-message-main/style.css */
