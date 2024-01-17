@@ -57,7 +57,7 @@ body {
 /* -------------------------------------- */
 /* first card beginning */
 .wrapper .first .left {
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem 3rem;
 }
 
 .wrapper .first .image {
@@ -227,3 +227,4 @@ section.second.card.hidden {
 
 /* https://github.com/josh76543210/Frontend-Mentor---Newsletter-sign-up-form-with-success-message-solution/blob/main/assets/css/style.css */
 /* https://github.com/Esesosa-max/frontend-mentors/blob/main/newsletter-sign-up-with-success-message-main/style.css */
+/* https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/ */
