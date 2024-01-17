@@ -140,10 +140,8 @@ section.second.card.hidden {
 .wrapper .second {
     border-radius: 0;
     height: 694px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 2rem;
+    padding: 3rem 2rem 0 2rem;
+
 }
 
 .wrapper .second .second-img {
@@ -163,17 +161,13 @@ section.second.card.hidden {
     width: 100%;
     padding: 1rem;
     border-radius: 7px;
-    margin-top: .75rem;
+    margin-top: 7rem;
     border: none;
     background-color: var(--dark-slate-grey);
     color: var(--white);
     font-weight: 700;
     cursor: pointer;
     font-size: 15px;
-    /* button towards the bottom  */
-    /* position: absolute;
-    bottom: 0;
-    width: 86%; */
 }
 
 .wrapper .second button:hover {
